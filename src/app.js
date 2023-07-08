@@ -2,6 +2,11 @@ const express=require('express');
 const app=express();
 const path=require('path');
 const empCollection=require('./model/model')
+const mongoose=require('mongoose');
+
+//adding
+
+
 
 const template_path=path.join(__dirname,'../template/views')
 app.set('view engine','hbs');
